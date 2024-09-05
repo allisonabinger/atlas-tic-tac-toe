@@ -1,15 +1,15 @@
-// this is the game Tic-Tac-Toe
-import Header from "./components/Header";
-import Board from "./components/Board";
-import "./style.css"
+// src/App.jsx
+import React from 'react';
+import './style.css'
+import Game from './components/Game';
 
 function App() {
-    return (
-        <div>
-            <Header />
-            <Board />
-        </div>
-    )
+  return (
+    <div className="app">
+      <h1>Tic-Tac-Toe</h1>
+      <Game />
+    </div>
+  );
 }
 
 export default App;

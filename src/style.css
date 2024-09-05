@@ -86,7 +86,7 @@ a:hover {
   font-weight: 800;
 }
 
-button {
+.button {
   background-color: var(--teal);
   color: var(--white);
   padding: 1em 2em;
@@ -98,7 +98,7 @@ button {
   margin-top: 2rem;
 }
 
-button:hover {
+.button:hover {
   filter: brightness(80%);
 }
 
